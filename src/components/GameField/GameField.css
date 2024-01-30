@@ -1,0 +1,53 @@
+.game-field {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 30px 60px;
+}
+
+.game-field__title {
+  font-size: 30px;
+}
+
+.game-field__modal {
+  display: none;
+}
+
+.game-field__container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.game-field__modal-continueGame {
+  padding: 10px 32px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  border: none;
+  border-radius: 5px;
+  color: #000;
+  background-color: #d2d0e1;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+.game-field__modal-continueGame:hover {
+  opacity: 0.7;
+}
+
+.game-field__modal-newGame {
+  padding: 10px 32px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  border: none;
+  border-radius: 5px;
+  color: #000;
+  background-color: #d2d0e1;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.game-field__modal-newGame:hover {
+  opacity: 0.7;
+}

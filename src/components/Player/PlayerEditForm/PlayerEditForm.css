@@ -1,0 +1,42 @@
+.player-edit-form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  color: #000;
+}
+
+.player-edit-form__input {
+  padding: 14px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -0.16px;
+  color: #000000;
+  text-transform: none;
+  border: none;
+  outline: 1px solid transparent;
+  border-radius: 12px;
+  background-color: #d2d0e1;
+  transition: outline 0.3s;
+}
+
+.player-edit-form__input:focus {
+  outline: 1px solid #131314;
+}
+
+.player-edit-form__btn {
+  padding: 10px 32px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  border: none;
+  border-radius: 5px;
+  color: #000;
+  background-color: #d2d0e1;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.player-edit-form__btn:hover {
+  opacity: 0.7;
+}

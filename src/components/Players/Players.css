@@ -1,0 +1,101 @@
+.players__title {
+  font-size: 30px;
+}
+
+.players__box-btns {
+  padding-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.players__add-player {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.players__add-player {
+  padding: 10px 32px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  border: none;
+  border-radius: 5px;
+  color: #000;
+  background-color: #d2d0e1;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.players__add-player:hover {
+  opacity: 0.7;
+}
+
+.players__form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.players__transfer-modal {
+  padding: 10px 32px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  border: none;
+  border-radius: 5px;
+  color: #000;
+  background-color: #d2d0e1;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.players__transfer-modal:hover {
+  opacity: 0.7;
+}
+
+.players__transfer-btn {
+  padding: 10px 32px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  border: none;
+  border-radius: 5px;
+  color: #000;
+  background-color: #d2d0e1;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.players__transfer-btn:hover {
+  opacity: 0.7;
+}
+
+.select-modal__input {
+  padding: 14px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -0.16px;
+  color: #000000;
+  text-transform: none;
+  border: none;
+  outline: 1px solid transparent;
+  border-radius: 12px;
+  background-color: #d2d0e1;
+  transition: outline 0.3s;
+}
+
+.select-modal__input:focus {
+  outline: 1px solid #131314;
+}
+
+.players-list {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style: none;
+}

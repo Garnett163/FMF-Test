@@ -1,0 +1,27 @@
+.select-modal__label {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: #000;
+}
+
+.select-modal__select {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #333;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.select-modal__select:hover,
+.select-modal__select:focus {
+  border-color: #007bff;
+}
+
+.select-modal__option {
+  font-size: 16px;
+}

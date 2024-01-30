@@ -1,0 +1,73 @@
+.modal {
+  padding: 0 10px;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  bottom: 0;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  left: 0;
+  opacity: 1;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+.modal__content {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.15);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  max-width: 430px;
+  width: 100%;
+  padding: 34px 36px 37px;
+  overflow-y: auto;
+  max-height: 90vh;
+}
+
+.modal__content_product {
+  max-width: 650px;
+  padding: 30px;
+}
+
+.modal__flex-box {
+  padding-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.modal__title {
+  color: #000;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 1.2;
+}
+
+.modal__closeBtn {
+  width: 27px;
+  height: 27px;
+  background: url('../../../images/cross-icon.svg') no-repeat center;
+  background-size: 27px 27px;
+  border: none;
+  cursor: pointer;
+}
+
+.modal__submitBtn:hover {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 450px) {
+  .modal__content {
+    padding: 20px 18px;
+  }
+
+  .modal__title {
+    font-size: 18px;
+  }
+}

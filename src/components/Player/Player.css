@@ -1,0 +1,28 @@
+.player {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.player__title {
+  font-size: 24px;
+}
+
+.player__balance {
+  font-size: 20px;
+}
+
+.player__flex-box {
+  display: flex;
+  gap: 100px;
+}
+
+.player__editBtn {
+  width: 30px;
+  height: 28px;
+  border: none;
+  outline: none;
+  background: url('../../images/edit-icon.svg') no-repeat center;
+  background-size: 30px 28px;
+  cursor: pointer;
+}

@@ -1,0 +1,21 @@
+.action-history {
+  display: flex;
+  gap: 30px;
+}
+
+.action-history__title {
+  font-size: 30px;
+}
+
+.action-history__list {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  list-style: none;
+}
+
+.action-history__flex-box {
+  display: flex;
+  flex-direction: column;
+}
